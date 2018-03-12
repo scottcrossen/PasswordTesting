@@ -1,0 +1,19 @@
+{
+  "name": "PasswordTesting",
+  "version": "0.0.1",
+  "description": "A test for the strength of generated passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "babel-node index.js"
+  },
+  "dependencies": {
+    "nano-md5": "^1.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
